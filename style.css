@@ -72,3 +72,30 @@ html {
   sup {
     top: -0.5em;
   }
+
+  img {
+    border-style: none;
+  }
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: 'Monoton', cursive; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
