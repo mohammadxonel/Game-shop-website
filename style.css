@@ -137,3 +137,65 @@ html {
     padding: 0; /* 3 */
     white-space: normal; /* 1 */
   }
+
+  progress {
+    vertical-align: baseline;
+  }
+  
+
+  textarea {
+    overflow: auto;
+  }
+ 
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+
+  details {
+    display: block;
+  }
+  
+
+  
+  summary {
+    display: list-item;
+  }
+  
+  
+  template {
+    display: none;
+  }
+  
+
+  
+  [hidden] {
+    display: none;
+  }
