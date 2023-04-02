@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500&family=Audiowide&family=Oswald:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/* variables */
+
+:root{
+    --archivo: 'Archivo', sans-serif;
+    --audiowide: 'Audiowide', cursive;
+    --oswald: 'Oswald', sans-serif;
+    --dark-color: #151515;
+    --red-color: #ff0000;
+    --dark-red-color: #c42727;
+    --red-color: --red-color;
+    --trans: all 0.3s ease-in-out;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+}
+
+html{
+    font-size: 10px; /* 1rem becomes equal to 10px */
+}
+
+body{
+    font-size: 1.7rem;
+    font-family: var(--archivo);
+    background-color: var(--dark-color);
+    color: rgb(255, 0, 0);
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
