@@ -131,3 +131,55 @@ img{
 .navbar-nav{
     margin-top: 5rem;
 }
+
+.nav-item{
+    margin: 2.4rem 0;
+    text-align: left;
+    font-family: var(--oswald);
+}
+
+.nav-link{
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+
+.nav-link:hover, .nav-item-dropdown:hover{
+    color: var(--dark-color);
+}
+
+.nav-item-dropdown{
+    margin-left: 0.5rem;
+    cursor: pointer;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+
+.nav-item-dropdown-content{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.nav-item-dropdown-content li{
+    margin-bottom: 1rem;
+}
+
+.nav-item-dropdown-content li a{
+    color: rgb(255, 0, 0);
+    opacity: 0.8;
+    letter-spacing: 1px;
+    font-weight: 300;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+
+.nav-item-dropdown-content li a:hover{
+    opacity: 1;
+}
+
