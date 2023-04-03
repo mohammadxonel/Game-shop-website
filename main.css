@@ -255,3 +255,13 @@ h1, h2, h3, h4{
     background-color: var(--dark-red-color);
 }
 
+/* news */
+
+.title{
+    background-color: var(--red-color);
+    padding: 1rem 0;
+    color: #fff;
+}
+.title h2{
+    margin: 0;
+}
