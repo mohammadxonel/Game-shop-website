@@ -189,3 +189,32 @@ img{
     margin: 1rem 0;
 }
 
+/* header section */
+#header{
+    min-height: 100vh;
+    margin-top: 85px;
+    padding: 2rem 0;
+}
+.header-item{
+    position: relative;
+    height: 420px;
+}
+.header-item img{
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.header-item-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 100%);
+    padding: 2.6rem;
+}
+
+
