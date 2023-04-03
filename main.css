@@ -222,11 +222,36 @@ h1, h2, h3, h4{
     line-height: 1.3;
     letter-spacing: 1px;
 }
+
 .text{
     margin: 1.6rem 0;
     line-height: 1.5;
     font-weight: 300;
     opacity: 0.9;
     letter-spacing: 1px;
+}
+
+.header-item-text small{
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.header-item-text a{
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+
+.header-item-text a:hover{
+    background-color: var(--dark-red-color);
 }
 
