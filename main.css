@@ -357,3 +357,21 @@ article{
     margin-top: 1.5rem;
     letter-spacing: 1px;
 }
+
+/* videos section */
+#videos .title{
+    background-color: var(--red-color);
+}
+
+#videos article{
+    border-bottom: 2px solid var(--red-color);
+}
+
+#videos .item-video video{
+    width: 100%;
+    border-radius: .4rem;
+}
+
+#videos .category{
+    background-color: var(--red-color);
+}
