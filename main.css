@@ -375,3 +375,15 @@ article{
 #videos .category{
     background-color: var(--red-color);
 }
+
+/* promo */
+#promo{
+    min-height: 100vh;
+    margin-bottom: 2rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url(../resources/images/promo-bg-1.jpg) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-1.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-1.jpg) center/cover no-repeat;
+    text-align: center;
+    -webkit-animation: backgroundChange 10s infinite;
+            animation: backgroundChange 10s infinite;
+}
