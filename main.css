@@ -387,3 +387,22 @@ article{
     -webkit-animation: backgroundChange 10s infinite;
             animation: backgroundChange 10s infinite;
 }
+
+@keyframes backgroundChange{
+    0%, 100%{
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url(../resources/images/promo-bg-1.jpg) center/cover no-repeat;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-1.jpg) center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-1.jpg) center/cover no-repeat;
+    }
+    33%{
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url(../resources/images/promo-bg-2.jpg) center/cover no-repeat;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-2.jpg) center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-2.jpg) center/cover no-repeat;
+    }
+    66%{
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url(../resources/images/promo-bg-3.jpg) center/cover no-repeat;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-3.jpg) center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-3.jpg) center/cover no-repeat;
+    }
+}
+
