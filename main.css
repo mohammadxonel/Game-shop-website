@@ -262,6 +262,7 @@ h1, h2, h3, h4{
     padding: 1rem 0;
     color: #fff;
 }
+
 .title h2{
     margin: 0;
 }
@@ -269,16 +270,19 @@ h1, h2, h3, h4{
 article{
     margin: 2rem 0;
 }
+
 .item-img{
     position: relative;
     height: 380px;
     overflow: hidden;
 }
+
 .item-img img{
     -o-object-fit: cover;
        object-fit: cover;
     height: 100%;
 }
+
 .item-img span{
     position: absolute;
     bottom: 0;
@@ -288,6 +292,43 @@ article{
     background-color: var(--red-color);
     color: #fff;
 }
+
 .item-text{
     padding: 1.5rem 0;
+}
+
+.h1{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 1.6rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+.item-text a{
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+.item-text a:hover{
+    opacity: 0.8;
+}
+
+.h1{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 1.6rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.item-text a{
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+
+.item-text a:hover{
+    opacity: 0.8;
 }
