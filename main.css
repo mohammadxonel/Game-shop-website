@@ -420,3 +420,27 @@ article{
         background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/promo-bg-3.jpg) center/cover no-repeat;
     }
 }
+
+#promo span{
+    text-transform: uppercase;
+    font-family: var(--oswald);
+    font-size: 10rem;
+}
+
+#promo h2{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-family: var(--audiowide);
+    margin-top: 2rem;
+}
+
+#promo .text{
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2rem;
+}
+
+
+
+
