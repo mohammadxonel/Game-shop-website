@@ -265,3 +265,29 @@ h1, h2, h3, h4{
 .title h2{
     margin: 0;
 }
+
+article{
+    margin: 2rem 0;
+}
+.item-img{
+    position: relative;
+    height: 380px;
+    overflow: hidden;
+}
+.item-img img{
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+}
+.item-img span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background-color: var(--red-color);
+    color: #fff;
+}
+.item-text{
+    padding: 1.5rem 0;
+}
