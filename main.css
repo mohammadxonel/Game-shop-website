@@ -533,7 +533,29 @@ transition: var(--trans);
                 column-gap: 2rem;
     }
 
+    #news article .item-img, #reviews article .item-img{
+        height: 260px;
+    }
+
+    /* popular news */
     
+    #news .news-popular article .item-img{
+        height: 160px;
+    }
+
+    #news .news-popular .popular-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        -webkit-column-gap: 4rem;
+           -moz-column-gap: 4rem;
+                column-gap: 4rem;
+    }
+
+    #news .news-popular .popular-list article:first-child, #news .news-popular .popular-list article:last-child{
+        margin-top: 0;
+    }
+
+
 
 
 }
