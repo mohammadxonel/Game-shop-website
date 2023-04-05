@@ -441,6 +441,29 @@ article{
     font-size: 2rem;
 }
 
+#promo .btn-groups{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+#promo .btn-groups a{
+    margin: 1rem;
+    background-color: var(--red-color);
+    border-radius: .3rem;
+    color: #fff;
+    padding: 1.4rem 2rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+
+#promo .btn-groups a:hover{
+    background-color: var(--dark-red-color);
+}
+
 
 
 
