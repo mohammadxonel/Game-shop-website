@@ -538,7 +538,7 @@ transition: var(--trans);
     }
 
     /* popular news */
-    
+
     #news .news-popular article .item-img{
         height: 160px;
     }
@@ -555,8 +555,15 @@ transition: var(--trans);
         margin-top: 0;
     }
 
+    /* videos */
 
-
+    #videos .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        -webkit-column-gap: 4rem;
+           -moz-column-gap: 4rem;
+                column-gap: 4rem;
+    }
 
 }
 
