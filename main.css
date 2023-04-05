@@ -520,4 +520,23 @@ transition: var(--trans);
 
 /* media qeries */
 
-@media(min-width: 768px){}
+@media(min-width: 768px){
+
+
+    /* news & reviews */
+    
+    #news article, #reviews article{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        -webkit-column-gap: 2rem;
+           -moz-column-gap: 2rem;
+                column-gap: 2rem;
+    }
+
+    
+
+
+}
+
+    
+
