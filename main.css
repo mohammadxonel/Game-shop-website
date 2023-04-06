@@ -615,6 +615,16 @@ transition: var(--trans);
         opacity: 0.8;
     }
 
+    /* nav item dropdown show class */
+    .show-dropdown{
+        padding: 1.5rem;
+    }
     
+    .nav-link:hover, .nav-item-dropdown:hover{
+        color: #fff;
+        opacity: 0.8;
+    }
+
+
 }
 
