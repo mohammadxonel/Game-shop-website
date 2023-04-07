@@ -689,4 +689,9 @@ transition: var(--trans);
                 column-gap: 0;
     }
 
+    /* video section */
+    #videos .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
 }
