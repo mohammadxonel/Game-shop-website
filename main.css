@@ -694,4 +694,10 @@ transition: var(--trans);
         grid-template-columns: repeat(4, 1fr);
     }
 
+    /* reviews section */
+    #reviews .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
