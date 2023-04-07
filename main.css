@@ -701,3 +701,12 @@ transition: var(--trans);
     }
 
 }
+
+/* transition and animation stopper while resizing window */
+.resize-animation-stopper *{
+    -webkit-animation: none!important;
+            animation: none!important;
+    -webkit-transition: none!important;
+    -o-transition: none!important;
+    transition: none!important;
+}
