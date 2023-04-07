@@ -710,3 +710,9 @@ transition: var(--trans);
     -o-transition: none!important;
     transition: none!important;
 }
+
+@media(max-width: 400px){
+    .header-item-text .text{
+        display: none;
+    }
+}
